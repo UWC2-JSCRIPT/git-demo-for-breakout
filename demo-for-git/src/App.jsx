@@ -3,13 +3,16 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import { Pablo } from "./Pablo";
+import { James } from './James'
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
+
       <Pablo />
+      <James />
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
